@@ -1,1 +1,1 @@
-web: gunicorn rubber_recommender_api:app --log-file -
+web: python rubber_recommender_api.py --log-file -
